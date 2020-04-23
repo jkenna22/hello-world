@@ -31,3 +31,6 @@ jobs:
       run: |
         echo Add other actions to build,
         echo test, and deploy your project.
+        
+- name: Hugo Broken Link Check
+  uses: marccampbell/hugo-linkcheck-action@v0.1.3
